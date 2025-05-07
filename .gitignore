@@ -1,0 +1,128 @@
+# Xcode
+xcuserdata/
+*.xcworkspace
+*.pbxuser
+*.mode1v3
+*.perspectivev3
+DerivedData/
+*.xcuserstate
+*.xcuserdata
+
+# CocoaPods
+Podfile.lock
+Pods/
+
+# Carthage
+Cartfile.resolved
+Carthage/Build
+
+# Swift Package Manager
+.swiftpm/xcode/package.xcworkspace
+.swiftpm/xcode/xcuserdata/
+
+# Build products
+build/
+*.app
+*.dSYM
+
+# Other Xcode files
+*.xcscheme
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+cmake-build-*/  # Ignore build directories with "cmake-build" prefix
+
+# C++ Build Artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.out
+
+# macOS
+.DS_Store
+._*
+
+# Python
+*.pyc
+*.pyo
+*.egg-info/
+__pycache__/
+.pytest_cache/
+.venv/
+env/
+venv/
+pip-log.txt
+pip-log.txt.*
+.coverage
+.tox
+.mypy_cache
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-error.log
+package-lock.json
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+out/
+
+# .NET
+*.csproj.user
+*.sln.docstates
+*.suo
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+*.userprefs
+
+# Docker
+*.dockerignore
+docker-compose.override.yml
+docker-compose.yml
+
+# Other Common Files
+*.log
+*.stackdump
+*.swp
+*.swo
+*.bak
+*.orig
+*.tmp
+*.lock
+*.plist
+*.sqlite
+*.sqlite-journal
+Thumbs.db
+ehthumbs.db
+Icon
+Desktop.ini
+.vscode/
+
+# Editor/IDE specific files
+*.idea/
+*.vscode/
+*.suo
+*.njsproj
+*.sln
+*.sw*
+*.bak
+*.user
+*.usertasks
+*.cache
+*.history
+*.spotlight
+.tags
+.ropeproject
